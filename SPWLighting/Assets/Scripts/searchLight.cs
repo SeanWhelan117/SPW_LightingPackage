@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class searchLight : MonoBehaviour
 {
@@ -13,14 +14,15 @@ public class searchLight : MonoBehaviour
 
     private bool followPlayer = false;
     private float startTime = 0f;
-    private float duration = 5f;
-    private float followDuration = 3f;
+    private float followDuration = 2f;
 
     private GameObject target;
+    Light2D light;
 
     private void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player");
+        light = GetComponentInChildren<Light2D>();
     }
 
     void Update()
@@ -61,6 +63,7 @@ public class searchLight : MonoBehaviour
         {
             if (target != null)
             {
+                light.color = Color.red;
                 // get the direction from the rotating object to the target object
                 Vector3 direction = target.transform.position - transform.position;
 
