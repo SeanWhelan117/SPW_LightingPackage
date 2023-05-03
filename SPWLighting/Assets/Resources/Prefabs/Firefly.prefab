@@ -173,5 +173,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cb304b5b9798ff4394177af29afc9f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minBlinkInterval: 0.1
-  maxBlinkInterval: 0.5
+  minBlinkInterval: 0.3
+  maxBlinkInterval: 0.7
