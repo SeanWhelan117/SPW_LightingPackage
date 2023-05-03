@@ -2,7 +2,7 @@
 
 ## Link for unity package:
 
-https://github.com/SeanWhelan117/SPW_LightingPackage.git?path=/SPWLighting/Packages/ie.setu.lighting#v0.4.0
+https://github.com/SeanWhelan117/SPW_LightingPackage.git?path=/SPWLighting/Packages/ie.setu.lighting#v0.9.0
 
 
 
